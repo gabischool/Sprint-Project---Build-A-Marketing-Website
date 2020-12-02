@@ -2,31 +2,29 @@
 
 **Read these instructions carefully. Understand exactly what is expected _before_ starting this Sprint Challenge.**
 
-This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored User Interface and Git. During this Sprint, you studied semantic HTML, CSS fundamentals, git, and responsive design. In your challenge this week, you will demonstrate proficiency by creating a fully responsive website that has some missing HTML elements as well as CSS specificity problems that need to be solved.
+This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. During this Sprint, you studied semantic HTML, CSS, git, responsive design and some Javascript. In your project this week, you will demonstrate proficiency by creating a fully responsive website that has some missing sections as well as some Javascript problems that need to be solved.
 
-This is an individual assessment. All work must be your own. Your challenge score is a measure of your ability to work independently using the material covered through this sprint. You need to demonstrate proficiency in the concepts and objectives introduced and practiced in preceding days.
+This is an individual assignment. All work must be your own. Your project score is a measure of your ability to work independently using the material covered through this sprint. You need to demonstrate proficiency in the concepts and objectives introduced and practiced in preceding days.
 
-You are not allowed to collaborate during the Sprint Challenge. However, you are encouraged to follow the twenty-minute rule and seek support from your TL if you need direction. Your work reflects your proficiency in user interface and your command of the concepts and techniques in semantic HTML, CSS fundamentals, git, and responsive design.
+You are not allowed to collaborate during the Sprint Project. However, you are encouraged to follow the twenty-minute rule and seek support from your GL or instructor if you need direction.
 
-> You have **three hours** to complete this challenge. Plan your time accordingly.
+> You have **four hours** to complete this challenge. Plan your time accordingly.
 
 
 ## Introduction
 
-In this challenge, you build a missing header (navigation and image) on the home page, update some CSS styling on the home page, and make your page responsive for mobile. You will be working with a pre-existing web page, allowing you to get a taste of what it is like to inherit code from someone else, as will regularly happen on the job.
+In this project, you build a missing header (navigation and image) on the home page, update some CSS styling on the index.css, and make your page responsive for mobile. You will be working with a pre-existing web page, allowing you to get a taste of what it is like to inherit code from someone else, as will regularly happen on the job.
 
 In meeting the minimum viable product (MVP) specifications listed below, your web page should look like the solution screen shots of the home page and mobile version. 
 
- [Click here for home page example](https://tk-assets.lambdaschool.com/39a49225-8ac9-43da-aa90-514fd60ae99a_sprint-challenge-ui-home-example.png)
- 
- [Click here for tablet example](design/Tablet.png)
+ [Click here for home page example](design_files/home-desktop.jpg)
 
 
-[Click here for mobile example](design/Mobile.png)
+[Click here for mobile example](design_files/home-mobile.jpg)
 
 ### Commits
 
-Commit your code regularly and meaningfully. This helps both you (in case you ever need to return to old code for any number of reasons) and your team lead.
+Commit your code regularly and meaningfully. This helps both you (in case you ever need to return to old code for any number of reasons) and your group lead.
 
 ## Self-Study Questions
 
@@ -38,24 +36,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 2. What are the 4 areas of the box model?
 
-3. While using flexbox, what axis does the following property work on: ```align-items: center```?
+3. What command do you use in git to copy files from Github?
 
 4. Explain why git is valuable to a team of developers.
 
-5. Define mobile-first design in your own words.
+5. What is the difference between Git and Github?.
 
-You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
+You are expected to be able to answer all these questions. Your responses contribute to your Sprint Project grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Instructions
 
 ### Task 1: Project Set Up
 
 - [ ] Create a forked copy of this project
-- [ ] Add your team lead as collaborator on Github
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!)
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
-- [ ] Push commits: git push origin `<firstName-lastName>`
+- [ ] Add your group lead or instructor as collaborator on Github
+- [ ] Clone your OWN version of the repository
+- [ ] Create a new branch: git checkout -b `<YourfirstName-YourlastName>`.
+- [ ] Implement the project on your newly created `<YourfirstName-YourlastName>` branch, committing changes regularly
+- [ ] Push commits: git push origin `<YourfirstName-YourlastName>`
 
 ### Task 2:  Minimum Viable Product
 
@@ -63,25 +61,12 @@ Your finished project must include all of the following requirements:
 
 #### Home Page
 
-[Review the provided design files](/design). Notice the navigation and header images are missing in the starter code.
+[Review the provided design files](/design_files). Notice the navigation and hero images are missing in the starter code.
 
 * [ ] Build the HTML and CSS to create the missing navigation and header
-* [ ] Link the `About` navigation item to an about.html page (you'll also need to create `about.html`)
-* [ ] Make your design responsive such that it is accessible on mobile(500px)and matches the [mobile](design/Mobile.png) wireframe.
+* [ ] Make your design responsive such that it is accessible on mobile(500px)and matches the [mobile](design_files/home-mobile.jpg) wireframe.
 * [ ] Add responsive breakpoints to your code by using media queries
 
-You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
-
-* [ ] box1: `teal`
-* [ ] box2: `gold`
-* [ ] box3: `cadetblue`
-* [ ] box4: `coral`
-* [ ] box5: `crimson`
-* [ ] box6: `forestgreen`
-* [ ] box7: `darkorchid`
-* [ ] box8: `hotpink`
-* [ ] box9: `indigo`
-* [ ] box10: `dodgerblue`
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
