@@ -64,6 +64,7 @@ Your finished project must include all of the following requirements:
 [Review the provided design files](/design_files). Notice the navigation and hero images are missing in the starter code.
 
 * [ ] Build the HTML and CSS to create the missing navigation and header
+* [ ] Read the instructions in [The Javascript file](/js/index.js)
 * [ ] Make your design responsive such that it is accessible on mobile(500px)and matches the [mobile](design_files/home-mobile.jpg) wireframe.
 * [ ] Add responsive breakpoints to your code by using media queries
 
