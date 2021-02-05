@@ -9,3 +9,5 @@
 3. Using conditional statement, check if the operation is addition, subtraction, division or multipilcation
 4. Add the output to the result variable you created.
 5. Console.log the result.
+
+*/
