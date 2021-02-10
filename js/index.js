@@ -11,3 +11,32 @@
 5. Console.log the result.
 
 */
+// this challange i did it before
+
+var a = parseInt(prompt('enter your first number'));
+var b = prompt('enter your operator like +,-,*,/');
+var c = parseInt(prompt('enter your second number'));
+switch (b) {
+ case ('+'):
+ b=a+c;
+console.log('your answer is : ' + b);
+ break;
+
+ case ('-'):
+ b=a-c;
+ console.log('your answer is : '+b);
+ break;
+
+ case ('*'):
+ b=a*c;
+ console.log('your answer is : '+b);
+ break;   
+
+ case ('/'):
+ b=a/c;
+ console.log('your answer is  '+ b);
+ break;
+
+ default:
+    console.log('you enter incorrect symbol');
+}
