@@ -91,6 +91,7 @@ p {
 
 .attraction-images {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
     background-color: #fdeaea;
@@ -120,19 +121,167 @@ p {
 .visit-africa {
     margin-top: 60px;
     padding: 50px 60px;
+    width: 85%;
+    margin: auto;
     display: flex;
+    flex-direction:row ;
     justify-content: center;
 }
 
 .visit-africa .visit-text {
-    width: 50%;
+    width: 40%;
 }
 
-.visit-africa .visit-text h3 {
-    margin-bottom: 10px;
+.visit-africa .visit-text h3,
+ .sign-up {
+    margin-bottom: 7%;
+    font-size: large;
+    font-weight: 800;
   }
 
 .visit-africa .visit-form {
-    width: 46%;
-      margin-left: 4%;
+    width: 47%;
+      margin-left: 7%;
 }
+
+
+/* my begins here */
+.images-title h2{
+  text-align: center;
+  margin: 20px;
+}
+.nav-bar{
+  width:80% ;
+  margin: auto;
+}
+
+.max-widith-nav{
+  display: flex;
+  flex-direction: row;
+justify-content: space-between;
+}
+.list-group{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+.list-group li a {
+  margin-left: 3rem;
+  text-decoration: none;
+  color: #000;
+  font-size: larger;
+  font: 1.5em sans-serif;
+  letter-spacing:2px;
+  font-weight: 400;
+}
+.list-group span {
+font-weight: 700;
+}
+
+.intro{
+  width: 100%;
+  height: auto;
+  
+}
+.hero-img{
+  width: 100%;
+  margin: auto;
+}
+.hero-img img {
+  width: 100%;
+  
+  margin-top: 50px;
+  background-size: auto;
+  background-size: 100%;
+}
+.visit-africa{
+  background:white;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  
+}
+
+.input-text{
+  width: 100%;
+  padding: 0.9rem;
+  margin: 0.9rem;
+  border-radius: 5px;
+  outline: none;
+  border: 2px solid grey;
+}
+.input-sub{
+ width: 50%;
+ margin: auto;
+ margin-top: 10px;
+ padding: 1.3rem;
+ border-radius: 8px;
+ outline: none;
+ border: none;
+background-color: rgb(207, 125, 87);
+}
+.btn{
+  background-color: rgb(207, 125, 87);
+  width: 40%;
+  margin: auto;
+ margin-top: 15px;
+ padding: 1.5rem;
+ border-radius: 8px;
+ outline: none;
+ border: none;
+ text-align: center;
+}
+footer p{
+  
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+  background-color: rgb(71, 5, 19);
+  color: white;
+  font-weight: 600;
+}
+
+
+@media all and (max-width:1160px){
+  .max-widith-nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+  }
+
+  .attraction-images {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.attraction-images .images{
+  margin-left: 30%;
+  
+}
+  .list-group li a{
+ padding: 20px;
+   
+  }
+  .visit-africa{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    
+  }
+  .visit-form{
+    
+  }
+
+
+}
+
+
+
+
+
