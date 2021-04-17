@@ -33,15 +33,20 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+Semantic HTML elements are those that clearly describe their meaning in a human- and machine-readable way. Elements such as <header> , <footer> and <article> are all considered semantic because they accurately describe the purpose of the element and the type of content that is inside them.
 
 2. What are the 4 areas of the box model?
-
+1-Margin
+2- Border
+3-Padding
+4- contant
 3. What command do you use in git to copy files from Github?
-
+(Git clone "URL)
 4. Explain why git is valuable to a team of developers.
-
+Git is the most commonly used version control system. It tracks the changes they make to files, so they have a record of what has been done, and they can revert to specific versions should they ever need to. Git also makes collaboration easier, allowing changes by multiple people to all be merged into one source.
 5. What is the difference between Git and Github?.
-
+Git is a version control system that lets you manage and keep track of your source code history. 
+While GitHub is a cloud-based hosting service that lets you manage Git repositories. If you have open-source projects that use Git, then GitHub is designed to help you better manage them.
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Project grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Instructions
