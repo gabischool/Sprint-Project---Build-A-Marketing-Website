@@ -72,6 +72,7 @@ h1, h2, h3, h4, h5 {
 
 h2 {
   font-size: 3.2rem;
+  text-align: center;
 }
 
 h3 {
@@ -135,4 +136,76 @@ p {
 .visit-africa .visit-form {
     width: 46%;
       margin-left: 4%;
+}
+
+.intro {
+  background-color: rgb(255, 255, 255);
+  margin: 0 0;
+  padding: 0 0;
+  justify-content:flex-end;
+  }
+
+  #hero-image {
+    display: none;
+  }
+
+nav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+}
+nav a {
+  text-decoration: none;
+  font-size: 18px;
+    color: black;
+  border-top: 1px solid #b4b6b7;
+  border-bottom: 1px solid #b4b6b7;
+  padding: 0.5rem;
+  margin-left: 10px;
+}
+.logo {
+  display: block;
+  margin: 1rem auto;
+}
+header {
+  text-align: center;
+  padding-bottom: 3rem;
+  margin:  0 1rem;
+  border-bottom: 2px solid black;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+@media (min-width: 500px) {
+  nav {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  nav a {
+    border: 0;
+  }
+  .btm {
+    font-size: 5rem;
+
+  }
+}
+
+@media (min-width: 800px) {
+  header {
+    display: flex;
+    justify-content: space-around;
+  }
+  div {
+    width: 50%;
+  }
+  #hero-image {
+    display: block;
+    width: 350px;
+    height: auto;
+  }
 }
