@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    "HTML was originally created as a markup language to describe documents on the early internet. As the internet grew and was adopted by more people, its needs changed."
+
 2. What are the 4 areas of the box model?
+
+    " defined by their respective edges: the content edge, padding edge, border edge, and margin edge. "
 
 3. What command do you use in git to copy files from Github?
 
+    " git clone "
+    
 4. Explain why git is valuable to a team of developers.
 
+    Git is the most commonly used version control system. Git tracks the changes you make to files, so you have a record of what has been done, and you can revert to specific versions should you ever need to. Git also makes collaboration easier, allowing changes by multiple people to all be merged into one source
+
 5. What is the difference between Git and Github?.
+
+    Git is a version control system that lets you manage and keep track of your source code history. GitHub is a cloud-based hosting service that lets you manage Git repositories
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Project grade. Skipping this section *will* prevent you from passing this challenge.
 
