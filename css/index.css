@@ -84,9 +84,10 @@ p {
 }
 /* navigation */
 
-.hero {
+.nav-logo {
   
   width: 100%;
+  
   background-position: center;
   background-size: cover;
   padding-left: 39px;
@@ -98,14 +99,14 @@ nav {
   float: right;
   align-items: center;
   justify-content: space-between;
-  padding-top: 60px;
-  margin-bottom: 15px;
+  padding-top: -70px;
+  margin-bottom: 0px;
 }
 nav ul li a {
   float: right;
   margin-right: 75px;
   padding-left: 2px;
-  margin-top: -15px;
+  margin-top: -65px;
 
 }
 .logo {
@@ -128,6 +129,9 @@ nav ul li a {
   text-decoration: none;
   font-size: 15px;
   font-weight: bold;
+}
+.active, nav a {
+  font-weight: bolder;
 }
 
 /* hero image */
@@ -284,28 +288,42 @@ footer {
 }
 
 @media (max-width:500px) {
-  nav {
+  .nav-logo {
+  flex-direction: column;  
+  }
+  .logo {
+    display: block;
+    width: 100%;
+  }
+
+  .logo {
+    text-align: center;
+    margin: 3rem auto;
+  }
+
+  .logo img {
+    align-items: center;
+    margin-left: 95px;
+    width: 100px;
+    height: 70px;
+  }
+
+  nav ul li {
+    align-items: center;
     display: flex;
-    float: right;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 60px;
-    margin-bottom: 15px;
+    flex-direction: column;
+    padding-top: 15px;
   }
-  .log {
-    margin: 0 0 0 2rem;
+
+  nav a {
+    font-size: 1.7rem;
+    text-transform: capitalize;
+    margin: 2rem 0 2rem 3rem;
     align-items: center;
+    padding-top: 80px;
+  }
+
  
-  }
-
-  nav ul li a{ 
-    float: right;
-    margin-right: 75px;
-    padding-left: 2px;
-    margin-top: -15px;
-  
-  }
-
   .attractions {
     height: auto;
     flex-direction: column;
