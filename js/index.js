@@ -11,3 +11,58 @@
 5. Console.log the result.
 
 */
+// console.log("heloo")
+// let result=num1 + num2
+// if (operation="+"){
+//     console.log(result)
+
+// // }
+// console.log("heyy")
+let num1=prompt("enter the first number")
+let num2=prompt("enter the first number")
+num1= parseInt(num1)
+num2= parseInt(num2)
+
+
+
+let opperation=prompt("enter an operation")
+if (opperation== "+"){
+    let result= num1 + num2
+   
+    console.log( "the result is",result)
+}
+ else if (opperation== "-"){
+    let result= num1 - num2
+    console.log( "the result is",result)
+
+    
+}
+else if (opperation== "*"){
+    let result= num1 * num2
+    console.log( "the result is",result)
+
+    
+}
+else if (opperation== "/"){
+    let result= num1 / num2
+    console.log( "the result is",result)
+
+    
+}
+else{
+  console.log("select an arithmetic operation")
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
