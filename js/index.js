@@ -11,3 +11,27 @@
 5. Console.log the result.
 
 */
+let number1=10;  //prompt("enter number 1");
+let number2=9;  //prompt("enter number 2");
+let operation='-'  //prompt("enter an operation");
+let result=0;
+if (operation=='+'){
+    result=number1+number2;
+    console.log( number1 + " + "+ number2 +  " = "+ result);
+}
+else if(operation=='-'){
+    result=number1-number2;
+  console.log( number1 + " - "+ number2 +  " = "+ result);
+}
+else if(operation=='*'){
+    result=number1*number2;
+  console.log(number1 + " * "+ number2 +  " = "+ result);
+}
+else if(operation=='/'){
+    result=number1/number2;
+  console.log( number1 + " / "+ number2 + " = "+ result);
+}
+else {
+    console.log("you entered a wrong operation please try again")
+}
+
