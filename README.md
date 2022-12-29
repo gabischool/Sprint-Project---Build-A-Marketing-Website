@@ -107,3 +107,6 @@ Follow these steps for completing your project.
 - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 - [ ] Add your team lead as a reviewer on the pull-request
 - [ ] Your team lead will count the project as complete by merging the branch back into master
+
+## Project Link:
+👀 [Live Website](https://sprint-project-marketing-website.netlify.app/)
