@@ -11,3 +11,25 @@
 5. Console.log the result.
 
 */
+
+let num1 = Number(prompt("Enter Number1:"))
+let num2 = Number(prompt("Enter Number2:"))
+let op = prompt("Enter Operation:")
+let result 
+
+if(op === "+"){
+    result = num1 + num2
+    console.log(result)
+}else if(op === "-"){
+    result = num1 - num2
+    console.log(result)
+}else if(op === "/"){
+    result = num1 / num2
+    console.log(result)
+}else if(op === "*"){
+    result = num1 * num2
+    console.log(result)
+}else{
+    console.log('Wrong input')
+}
+

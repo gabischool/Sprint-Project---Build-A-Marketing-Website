@@ -34,13 +34,25 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+=> semantic HTML: is when the content and its label match.  
+
 2. What are the 4 areas of the box model?
+
+=> margin, border, padding and content.
 
 3. What command do you use in git to copy files from Github?
 
+=> git clone
+
 4. Explain why git is valuable to a team of developers.
 
+=> git gives access to previous versions of the code that you are workig on with your teammates so 
+if anything goes wrong you can still go back to your previous code version, also many people can work concurrently on a single project. Everyone can work on their branch and can share the changes with the team whenever they want.
+
 5. What is the difference between Git and Github?.
+
+=> Git: is a version control system that lets you manage and keep track of your source code history.
+Github: is a cloud based hosting service that lets you manage git repositories.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Project grade. Skipping this section *will* prevent you from passing this challenge.
 
